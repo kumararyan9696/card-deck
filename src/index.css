@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+	width:200px;
+	height:310px;
+	border-radius:10px;
+	border:solid 1px gray;
+	margin: 9px;
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+	background: white fixed;
+	line-height: 20px;
+  display: inline-block !important;
+}
+
+.center {
+	width: 65%;
+	height: 65%;
+	position: absolute;
+	top: 15%;
+	left: 15%;
+	font-size: 70px;
+	text-indent: -5px;
+	word-wrap: break-word;
+	line-height: 53px;
+	padding: 2%;
+}
+
+.heart, .diamond {
+  color:red;	
+  }
+  
+  .spade, .club {
+  color:black;
+  }
+
+  .cardbutton {
+    margin: 0 auto 2rem;
+    width: 250px;
+    height: 300px;  
+    background-color: white;
+    word-wrap: break-word;
+    border-radius: 6px;
+    box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #f2f2f2, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.1), 0 1em 0 -0.5em #e5e5e5, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
+  }
+
+  .carddivCenter
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  button
+  {
+    margin: 2%;
+  }
+
+  .title
+  {
+    width:100%;
+    background-color: lightgrey;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+  
